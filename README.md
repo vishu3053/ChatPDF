@@ -57,9 +57,9 @@ This project demonstrates how to build an LLM (Large Language Model) application
 
 ## Example Queries
 
-🎯 "Summarize the contents of the uploaded documents."
-🎯 "Find all instances of a specific term."
-🎯 "What are the key topics discussed in the PDFs?"
+- "Summarize the contents of the uploaded documents."
+- "Find all instances of a specific term."
+- "What are the key topics discussed in the PDFs?"
 
 
 ## Contributing
