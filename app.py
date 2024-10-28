@@ -40,6 +40,7 @@ def get_text_chunks(text):
 
 
 # convert chunks into vectors 
+@st.cache_data 
 def get_vector_store(text_chunks):
     embeddings = GoogleGenerativeAIEmbeddings(model = "models/embedding-001")
     # this vector_store can either be stored in database or in a local environment 
