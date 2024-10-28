@@ -80,4 +80,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 
-For any questions or inquiries, please contact [vishwashp3053@gmail.com].
+For any questions or inquiries, please contact vishwashp3053@gmail.com.
