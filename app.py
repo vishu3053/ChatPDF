@@ -20,12 +20,15 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # We read the PDF, we go through each and every pages and we extract the "text"
 def get_pdf_text(pdf_docs):
-    text=""
-    for pdf in pdf_docs:
-        pdf_reader= PdfReader(pdf)
+    text = ""
+    total_files = len(pdf_docs)
+    
+    for i, pdf in enumerate(pdf_docs):
+        pdf_reader = PdfReader(pdf)
         for page in pdf_reader.pages:
-            text+= page.extract_text()
-    return  text
+            text += page.extract_text()
+        st.progress((i + 1) / total_files)  # Update progress bar
+    return text
 
 
 # divide the text into smaller chunks of particular size ie. 1000 words/tokens here 
