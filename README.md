@@ -28,8 +28,8 @@ This project demonstrates how to build an LLM (Large Language Model) application
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/vishu3053/pdfChat.git
-   cd pdfChat
+   git clone [https://github.com/vishu3053/pdfChat.git](https://github.com/vishu3053/ChatPDF)
+   cd ChatPDF
 
 2. Create a virtual environment and activate it:
     ```bash
