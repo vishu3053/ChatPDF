@@ -72,11 +72,11 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Acknowledgments
 
-Google Gemini Pro
-Langchain
-FAISS
-Streamlit
-PyPDF2
+- Google Gemini Pro
+- Langchain
+- FAISS
+- Streamlit
+- PyPDF2
 
 ## Contact
 
